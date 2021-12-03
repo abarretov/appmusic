@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppMusic</title>
+    <meta name="description" content="" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="css/main.min.css">
+    <script src="js/scripts.min.js" defer></script>
+  </head>
+  <body>
+    <!-- login -->
+    <section class="login">
+      <div class="login__container">
+        <div class="brand">
+          <div class="brand__content"><span class="brand__title">AppMusic</span></div>
+        </div>
+        <form class="form" id="login" enctype="multipart/form-data">
+          <div class="form__group">
+            <label>
+              <input type="text" name="user" placeholder="Usuario" required />
+            </label>
+          </div>
+          <div class="form__group">
+            <label>
+              <input type="password" name="password" placeholder="Contraseña" required />
+            </label>
+          </div>
+          <div class="form__group" data-state="collapsed">
+            <label>
+              <input
+                id="inputEmail"
+                type="email"
+                name="email"
+                placeholder="Correo electrónico"
+              />
+            </label>
+          </div>
+          <div class="form__group">
+            <button
+              class="form__button form__button--submit"
+              id="btnSubmit"
+              type="submit"
+            >
+              Iniciar sesión
+            </button>
+          </div>
+          <div class="form__group" data-state="collapsed">
+            <span class="form__text">¿Ya tienes una cuenta?</span>
+          </div>
+          <div class="form__group" data-state="collapsed">
+            <span class="form__switch" data-trigger="collapse">Iniciar sesión</span>
+          </div>
+          <div class="form__group" data-state="expanded">
+            <span class="form__text">¿No tienes una cuenta?</span>
+          </div>
+          <div class="form__group" data-state="expanded">
+            <span class="form__switch" data-trigger="collapse">Regístrate</span>
+          </div>
+          <div class="form__group">
+            <span class="form__text form__text--status" id="textStatus"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
