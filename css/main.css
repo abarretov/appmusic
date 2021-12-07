@@ -1,0 +1,1094 @@
+@charset "UTF-8";
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../assets/fonts/FontAwesome/fa-solid-900.eot");
+  src: url("../assets/fonts/FontAwesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/FontAwesome/fa-solid-900.woff2") format("woff2"), url("../assets/fonts/FontAwesome/fa-solid-900.woff") format("woff"), url("../assets/fonts/FontAwesome/fa-solid-900.ttf") format("truetype"), url("../assets/fonts/FontAwesome/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../assets/fonts/FontAwesome/fa-brands-400.eot");
+  src: url("../assets/fonts/FontAwesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/FontAwesome/fa-brands-400.woff2") format("woff2"), url("../assets/fonts/FontAwesome/fa-brands-400.woff") format("woff"), url("../assets/fonts/FontAwesome/fa-brands-400.ttf") format("truetype"), url("../assets/fonts/FontAwesome/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+html, body, span, object, h3, p, a, menu, var, i, ul, li, form, img, nav, aside, label, section, mark, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+ aside, header, menu, nav,
+section {
+  display: block;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --vh: 1vh;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  margin: auto;
+  background-color: #171B24;
+  background-image: url("../assets/images/pattern.png");
+  background-size: cover;
+  color: #FEFEFE;
+  font-family: "Jura", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+body .py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section {
+  padding: 20px;
+  background-color: #171B24;
+}
+
+.freeze {
+  overflow: hidden;
+}
+
+.freeze::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 99;
+}
+
+ .title {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media only screen and (min-width: 768px) {
+   .title {
+    font-size: 48px;
+  }
+}
+
+ .text, p {
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Light.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Light.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Light.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Light.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Light-Italic.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Light-Italic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Light-Italic.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Light-Italic.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Light-Italic.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Regular.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Regular.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Regular.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Regular-Italic.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Regular-Italic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Regular-Italic.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Regular-Italic.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Regular-Italic.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Medium.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Medium.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Medium.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Medium-Italic.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Medium-Italic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Medium-Italic.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Medium-Italic.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Medium-Italic.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-SemiBold.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-SemiBold.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Bold.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Bold.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Bold.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Bold-Italic.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Bold-Italic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Bold-Italic.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Bold-Italic.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Bold-Italic.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBold.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-ExtraBold.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-ExtraBold.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBold-Italic.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-ExtraBold-Italic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-ExtraBold-Italic.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-ExtraBold-Italic.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-ExtraBold-Italic.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Black.eot?") format("eot"), url("../assets/fonts/Poppins/Poppins-Black.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Black.woff") format("woff"), url("../assets/fonts/Poppins/Poppins-Black.ttf") format("truetype"), url("../assets/fonts/Poppins/Poppins-Black.svg#Poppins") format("svg");
+}
+
+@font-face {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/Jura/Jura-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Jura/Jura-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Jura/Jura-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Jura/Jura-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Jura/Jura-Bold.ttf") format("truetype");
+}
+
+@-webkit-keyframes fadefromnone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes fadefromnone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes lighthouse {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes lighthouse {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(-25deg);
+  }
+  20% {
+    transform: rotate(25deg);
+  }
+  30% {
+    transform: rotate(-25deg);
+  }
+  40% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(-25deg);
+  }
+  20% {
+    transform: rotate(25deg);
+  }
+  30% {
+    transform: rotate(-25deg);
+  }
+  40% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@-webkit-keyframes move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/*
+ * Originally authored by José Jesús Ochoa Torres
+ * https://github.com/JoseJesusOchoaTorres/grid-system-example
+ * ------------------------------------------------------------
+ * To simulate or integrate on other classes a System Grid
+ */
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.fluid.container {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0;
+  height: 100%;
+}
+
+.no-gutter.row {
+  margin: 0 -40px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .no-gutter.row .no-gutter.row [class^=col-] {
+    padding: 0;
+  }
+}
+[class^=col-] {
+  padding: 0 40px;
+}
+
+.no-gutter[class^=col-] {
+  padding: 0;
+}
+
+.col-xs-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+}
+
+.login {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .login__container {
+    width: inherit;
+  }
+}
+
+.profile {
+  width: 100%;
+  background-color: transparent;
+}
+
+.profile__container {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas: 'image info';
+}
+
+.profile__img {
+  grid-area: image;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+
+.profile__img img {
+  border: 6px solid #EC4B5F;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.profile__info {
+  grid-area: info;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.profile__name {
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #FFBB50;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.profile__bio {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  color: #FEFEFE;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.sidebar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FEFEFE;
+  opacity: 0.05;
+}
+
+.sidebar__container {
+  position: relative;
+}
+
+.header {
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+}
+
+.header__content {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+
+.form {
+  position: relative;
+  margin: 40px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #FEFEFE;
+}
+
+.form__group {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.form__group:last-child {
+  margin-bottom: 0;
+}
+
+.form label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .form label {
+    font-size: 18px;
+    text-shadow: none;
+  }
+}
+
+.form label a {
+  color: #FFBB50;
+}
+
+.form label a:hover {
+  color: #FFBB50;
+}
+
+.form input, .form textarea {
+  margin-bottom: 20px;
+  border-radius: 3px;
+  padding-left: 10px;
+  min-width: 280px;
+  width: 100%;
+  background-color: #ECECEC;
+  color: #232C33;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1366px) {
+  .form input, .form textarea {
+    font-size: 18px;
+    text-shadow: none;
+  }
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+  background-color: #ECECEC;
+  color: #232C33;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1366px) {
+  .form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    font-size: 18px;
+    text-shadow: none;
+  }
+}
+
+.form input:-moz-placeholder, .form textarea:-moz-placeholder {
+  background-color: #ECECEC;
+  color: #232C33;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1366px) {
+  .form input:-moz-placeholder, .form textarea:-moz-placeholder {
+    font-size: 18px;
+    text-shadow: none;
+  }
+}
+
+.form input::-moz-placeholder, .form textarea::-moz-placeholder {
+  background-color: #ECECEC;
+  color: #232C33;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1366px) {
+  .form input::-moz-placeholder, .form textarea::-moz-placeholder {
+    font-size: 18px;
+    text-shadow: none;
+  }
+}
+
+.form input::-ms-input-placeholder, .form textarea::-ms-input-placeholder {
+  background-color: #ECECEC;
+  color: #232C33;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1366px) {
+  .form input::-ms-input-placeholder, .form textarea::-ms-input-placeholder {
+    font-size: 18px;
+    text-shadow: none;
+  }
+}
+
+.form input {
+  border: none;
+  border-bottom: 1px solid #232C33;
+  padding-bottom: 3px;
+  line-height: 2;
+}
+
+.form__text, .form__switch {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.form__text--status {
+  display: none;
+  opacity: 0;
+  font-weight: 600;
+}
+
+.form__text--error {
+  color: #EC4B5F;
+}
+
+.form__text--success {
+  color: #FFBB50;
+}
+
+.form__text.show {
+  -webkit-animation: fadefromnone 0.4s linear forwards;
+  animation: fadefromnone 0.4s linear forwards;
+  display: block;
+}
+
+.form__switch {
+  cursor: pointer;
+  color: #FFBB50;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form__button {
+  margin-bottom: 20px;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #EC4B5F;
+  color: #FEFEFE;
+  font-size: 20px;
+  line-height: 2;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.form [data-state] {
+  overflow: hidden;
+  height: auto;
+}
+
+.form [data-state='collapsed'] {
+  height: 0;
+}
+
+.form [data-state='expanded'] {
+  display: auto;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .text {
+    -moz-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+  }
+}
+
+.text p {
+  margin-bottom: 30px;
+}
+
+.brand {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.brand::before {
+  margin-bottom: 10px;
+  content: '';
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  filter: drop-shadow(1px 1px 4px #000000);
+}
+
+.brand__content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.brand__title {
+  color: #FFBB50;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px #000000;
+}
+
+.list {
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+
+.list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #FEFEFE;
+}
+
+.list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #FFBB50;
+}
+
+.list--sidebar {
+  min-height: 72px;
+  max-height: 350px;
+}
+
+.list--filter {
+  max-height: 395px;
+}
+
+.list--filter .list__child {
+  background-color: rgba(254, 254, 254, 0.05);
+}
+
+.list__child {
+  list-style-type: none;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #171B24;
+  color: #FEFEFE;
+}
+
+.list__title {
+  margin-bottom: 7px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #FFBB50;
+  color: #171B24;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.list__metadata {
+  line-height: 1.4;
+}
+
+.list__metadata span {
+  color: #FFBB50;
+  font-weight: 700;
+}
+
+.menu {
+  position: relative;
+  right: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu {
+    right: 0;
+  }
+}
+
+.menu__nav {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  padding-top: 100px;
+  background-color: #171B24;
+  width: 100%;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  transition: left 0.6s ease-in-out;
+  overflow-x: hidden;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu__nav {
+    border-bottom: none;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    background: transparent;
+  }
+}
+
+.menu__nav--expanded {
+  left: 0;
+}
+
+.menu__link {
+  position: relative;
+  border-bottom: 2px dashed #FEFEFE;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  color: #FEFEFE;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu__link {
+    padding: 2% 6%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu__link {
+    margin-right: 15px;
+    border-bottom: none;
+    padding: 0;
+    height: 100%;
+    color: #FEFEFE;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: unset;
+    box-shadow: none;
+    z-index: 1;
+  }
+}
+
+.menu__link:first-child {
+  border-top: 2px solid #FFBB50;
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu__link:first-child {
+    border-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu__link:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu__link:hover {
+  color: #FEFEFE;
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu__link:hover {
+    color: #FEFEFE;
+  }
+}
+
+.menu__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 101;
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu__btn {
+    display: none;
+  }
+}
+
+.menu__btn--active .menu__shape {
+  right: 5px;
+  width: 25px;
+  background: transparent;
+}
+
+.menu__btn--active .menu__shape::before {
+  top: 0;
+  width: 25px;
+  transform: rotate(-45deg);
+}
+
+.menu__btn--active .menu__shape::after {
+  top: 0;
+  width: 25px;
+  transform: rotate(45deg);
+}
+
+.menu__shape {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 32px;
+  height: 4px;
+  background-color: #FEFEFE;
+  transition: all 0.3s ease-out;
+}
+
+.menu__shape::before, .menu__shape::after {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 4px;
+  background-color: #FEFEFE;
+  transition: all 0.3s ease-out;
+}
+
+.menu__shape::before {
+  top: 9px;
+  right: 0;
+}
+
+.menu__shape::after {
+  top: -9px;
+  right: 0;
+}
